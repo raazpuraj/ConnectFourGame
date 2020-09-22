@@ -144,7 +144,7 @@ public class ConnectFour {
         try (Scanner input = new Scanner(System.in)) {
             // we define some variables for our game like
             // dimensions and nb max of moves
-            int height = 6; int width = 8; int moves = height * width;
+            int height = 6; int width = 7; int moves = height * width;
 
             // we create the ConnectFour instance
             ConnectFour board = new ConnectFour(width, height);
